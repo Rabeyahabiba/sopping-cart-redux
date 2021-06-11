@@ -1,0 +1,120 @@
+.productDetail {
+  /* min-height: 700px; */
+
+  margin: auto;
+}
+.detail {
+  margin: auto;
+  background: white;
+  border-radius: 5px;
+  /* height:800px; */
+  box-shadow: 2px 2px 22px rgb(243, 213, 213), -2px -2px 22px rgb(240, 227, 227);
+  width: 75%;
+  padding-bottom: 30px;
+  min-height: 20vh;
+}
+.back {
+  margin-top: 5%;
+}
+.backto {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+Link {
+  text-decoration: none;
+}
+.img-flu {
+  margin-top: 30%;
+  height: 400px;
+  object-fit: contain;
+}
+.detail-title {
+  display: block;
+  margin-top: 5%;
+  font-size: 23px;
+}
+.description-star {
+  color: gold;
+}
+.description-text {
+  padding-right: 45px;
+  display: block;
+  margin-top: 3px;
+  color: gray;
+}
+.description-price {
+  font-size: 44px;
+  font-weight: bold;
+}
+.category {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 5%;
+  font-weight: bold;
+  color: gray;
+}
+.addToCart {
+  background: #55a9ff;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  border: 1px solid #55a9ff;
+  border-radius: 5px;
+  display: block;
+  height: 50px;
+  padding-right: 19px;
+  transition: 0.4s ease-in;
+}
+.addToCart:hover {
+  background: white;
+  color: black;
+  transition: 0.4s ease-in;
+  box-shadow: 2px 2px 21px rgb(182, 178, 178);
+}
+.category-name {
+  display: inline-block;
+  font-weight: 600;
+  color: black;
+}
+
+@media screen and (max-width: 1480px) {
+  .detail {
+    background: white;
+    border-radius: 5px;
+    height: 700px;
+    box-shadow: 2px 2px 22px rgb(240, 227, 227);
+    width: 100%;
+  }
+}
+@media screen and (max-width: 362px) {
+  .img-flu {
+    margin-top: 30%;
+    margin-right: 8%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .description-text {
+    padding-right: 10px;
+    display: block;
+    margin-top: 3px;
+    color: gray;
+  }
+}
+@media screen and (max-width: 991px) {
+  .detail {
+    background: white;
+    border-radius: 5px;
+    height: 1200px;
+    box-shadow: 2px 2px 22px rgb(240, 227, 227);
+    width: 100%;
+  }
+}
+
+.loadingWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
